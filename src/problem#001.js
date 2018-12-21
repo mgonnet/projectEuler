@@ -33,5 +33,7 @@
 
   var iterable = multiplesOf3and5(10)
 
-  Array.from(iterable).reduce((acum, current) => acum + current, 0)
+  let result = Array.from(iterable).reduce((acum, current) => acum + current, 0)
+
+  console.log(result)
 })()
